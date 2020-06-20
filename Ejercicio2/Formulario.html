@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+    <title>Formulario de Contacto</title>
+
     <meta charset="UTF-8">
     <meta name="Description" content="Formulario con CSS">
     <link rel="stylesheet" href="Estilo.css">
 
-    <title>Formulario de Contacto</title>
 
 </head>
 <body>
-    <h1>Fomularios de Contacto</h1>
-
-<Form action="mailto:Ricardomeran@gmail.com" method="post" enctype="text/plain">
-
-    <Section>
+    
+    <Form action="mailto:Ricardomeran@gmail.com" method="post" enctype="text/plain">
         
-        <Main>
+        <Section>
+            
+            <Main class="Contenedor-Formulario">
 
-            <dev>
-                <label title="Nombre y Apellido">Nombre</label>
-                <input name="Nombre" type="text">
-               
-                <label for="">Asunto</label>
-                <input type="text">
-                   
-                <label for="">Correo</label>
-                <input type="email">
+                <h1 class="titulo">Fomularios de Contacto</h1>
                 
-                <label for="">Mensaje</label>
-                <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+            <form class="contenedor">
+                
+                <input class="Caja-texto" type="text" placeholder="Nombre">
+                <input class="Caja-texto" type="text" placeholder="Correo Electronico">
+                <input class="Caja-texto" type="text" placeholder="Asunto">
+                <textarea name="Caja-texto" rows="3"  placeholder="Mensaje"></textarea>
                 
                 <button>Enviar</button>
                 
-            </dev>
+            </form>
+
+            <div class="contenedor-refe">
+                <ul>
+                    <il> <b>Propietario: </b>Ricardo Meran</il>
+                    <il> <b>Direccion: </b> Calle: Juan Perez/ Algun Lugar/ Santo Domingo/ Rep. Dom.</il>
+                    <il> <b>Telefono: </b>(849) 880-5206</il>
+                </ul>
+                
+                <ul> 
+
+                    <il>Facebook</il>
+                    <il>Instagran</il>
+                    <il>Email</il>
+                    
+                </ul>
+
+            </div>
                     
         </Main>
 
