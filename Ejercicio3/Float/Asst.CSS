@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 }
 
 body {
@@ -29,3 +30,12 @@ h2 {
     padding: 10px;
 
 }
+
+.cabecera {
+    background-color: #ffba0b;
+    color: #222222;
+    min-height: 60px;
+
+}
+
+.cabecera
