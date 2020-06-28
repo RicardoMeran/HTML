@@ -17,25 +17,39 @@ h2 {
     color: #222222;
 }
 
-.contenedor {   
+.Contenedor {   
     width: 100%;
     height: 100vh;
     padding: 0 15px;
 }
 
-.contenedor > * {
+.Contenedor > * {
     background-color: #6E9CC4;
     border-radius:  5px;
     margin: 5px;
     padding: 10px;
-
 }
 
-.cabecera {
-    background-color: #ffba0b;
-    color: #222222;
-    min-height: 60px;
-
+.Cabecera {
+    background-color:  yellow;
 }
 
-.cabecera
+
+.Cabecera, .pie-pagina {
+    width: inherit;
+}
+
+.Seccion, .barra-tarea {
+    width: 32%;
+    min-height: 400px;
+    float: left;
+}
+
+.barra-tarea {
+    float: right;
+}
+
+.pie-pagina {
+min-height: 60px;
+float: left;
+}
