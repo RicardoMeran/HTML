@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    background-color: #DCE0E5;
+    font-family: verdana;
+}
+
+h2 {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #222222;
+}
+
+.Contenedor {
+    width:100%;
+    height: 100vh;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+/* adapta el contenido a la pantalla*/
+    flex-wrap: wrap;
+
+}
+
+.Contenedor > * {
+    background-color: #6E9CC4;
+    border-radius:  5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.elemento {
+    width: 150px;
+    height: 150px;
+}
