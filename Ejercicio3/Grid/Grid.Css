@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: ;
+    background-color: #9D9171;
     font-family:  verdada;
 }
 
@@ -33,13 +33,13 @@ h2 {
 }
 
 .contenedor > *{
-    background-color: #6E9CC4;
+    background-color: #B07156;
     border-radius: 5px;
     padding: 10px;
 }
 
 .header {
-    background-color: #ffba08;
+    background-color: #533745;
     color: #222222;
     grid-area: header;
 }

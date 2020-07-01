@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
+    color: white;
 }
 
 body {
@@ -31,7 +31,7 @@ h2 {
 }
 
 .Contenedor > * {
-    background-color: #6E9CC4;
+    background-color:blue;
     border-radius:  5px;
     margin: 5px;
     padding: 10px;

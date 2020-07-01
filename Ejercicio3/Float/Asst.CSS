@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
 }
 
 body {
-    background-color: #DCE0E5;
+    background-color:gray;
     font-family: verdana;
 }
 
@@ -24,14 +23,15 @@ h2 {
 }
 
 .Contenedor > * {
-    background-color: #6E9CC4;
+    background-color: white;
     border-radius:  5px;
     margin: 5px;
     padding: 10px;
 }
 
 .Cabecera {
-    background-color:  yellow;
+    background-color: red;
+    color: white;
 }
 
 
