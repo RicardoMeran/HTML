@@ -1,0 +1,80 @@
+:root{
+    --color1: #ffffff;
+    --color2: #000000;
+    --color3: #F0F3F5;
+    --color4: #df405a;
+    --color5: #2a3d54; 
+    --color7: #2b90d9;
+    --color8: #dfe3e6;
+    --color9: rgba(0, 0, 0, 0.329);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.seccionFormulario{
+    width: 90%;
+    height: 400px;
+    margin: 100px auto;
+    box-shadow: 0px 10px 40px -10px rgba(0,0,0,.3);
+    background-color: var(--color1);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;   
+}
+
+.anuncio{
+    width: 90%;
+    height: 350px;
+    background-color: var(--color5);
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.anuncio > *{
+    font-size: 5em;
+    color: var(--color1);
+    padding-left: 2rem;
+}
+
+.formulario{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1.5rem;
+}
+input[type="text"]{
+    margin: .4rem 0px;
+    font-size: 1.125rem;
+    padding: .4rem;
+    font-family: var(--fuente2); 
+    border: 1px solid var(--color8);
+}
+textarea{
+    /* Establecer al Textarea un tamaño fijo */
+    resize: vertical;
+    min-height: 200px;
+    max-height: 200px;
+    /*  */
+    margin: .4rem 0px;
+    font-size: 1.125rem;
+    padding:.4rem;
+    border: 1px solid var(--color8);
+    font-family: var(--fuente2);
+}
+input[type="submit"]{
+    width: 5rem;
+    font-size: 1rem;
+    background-color: var(--color5);
+    border: none;
+    padding: .4rem 0px;
+    color: var(--color1);
+    border-radius: 2px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: .4rem 0px;
+
+

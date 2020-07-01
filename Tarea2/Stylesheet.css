@@ -1,12 +1,8 @@
 :root{
-    --color1: blue;
+    --color1: #2B2D42;
     --color2: #000000;
-    --color3: #ffffff;
-    --color4:  grey;    
-
-
-    --fuente1: ;
-    --fuente2: ;
+    --color3: #8D99AE;
+    --color4: #EDF2F4;    
 }
 
 *{
@@ -34,7 +30,7 @@ body{
     justify-content: start;
     align-items: center;
     padding-left: 8rem;
-    color: var(--color3);
+    color: var(--color4);
 }
 
 .name > h1 {
@@ -55,7 +51,7 @@ body{
     flex: 1 0 0;
     }
 .items li a {
-    color: var(--color3);
+    color: var(--color4);
 }
 
 .personal-info{
